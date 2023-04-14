@@ -67,17 +67,17 @@ INSERT INTO analyse_corporel (imc, metabolisme_de_base, besoin_energetique, mass
 VALUES ('40', '2000', '5000', '40', '40', '30', '100', '90', '50', '30');
 
                 -- DOCTEUR --
-INSERT INTO docteur (nom, prenom, id_genre, adresse, id_ville, id_code_postale, id_pays, mail, telephone)
-VALUES ('Duggan','Agatha','1','6 rue de la Tisionnère','1','1','1','A.Dug@gmail.com','0678543289');
-INSERT INTO docteur (nom, prenom, id_genre, adresse, id_ville, id_code_postale, id_pays, mail, telephone)
-VALUES ('Jonas','Karim','2','Busch 12','5','6','3','K.Jonas@gmail.com','13467982');
-INSERT INTO docteur (nom, prenom, id_genre, adresse, id_ville, id_code_postale, id_pays, mail, telephone)
-VALUES ('Martinez','Sacha','3','La Fretière','2','2','1','Samar@hotmail.com','0611568493');
+INSERT INTO docteur (nom_docteur, prenom_docteur, id_genre, adresse_docteur, id_ville, id_code_postale, id_pays, mail_docteur, telephone_docteur)
+VALUES ('Duggan','Agatha', 1 ,'6 rue de la Tisionnère', 1, 1, 1,'A.Dug@gmail.com','0678543289');
+INSERT INTO docteur (nom_docteur, prenom_docteur, id_genre, adresse_docteur, id_ville, id_code_postale, id_pays, mail_docteur, telephone_docteur)
+VALUES ('Jonas','Karim', 2,'Busch 12', 5, 6, 3,'K.Jonas@gmail.com','13467982');
+INSERT INTO docteur (nom_docteur, prenom_docteur, id_genre, adresse_docteur, id_ville, id_code_postale, id_pays, mail_docteur, telephone_docteur)
+VALUES ('Martinez','Sacha', 3,'La Fretière', 2, 2, 1,'Samar@hotmail.com','0611568493');
 
                 -- MEMBRE --
 INSERT INTO membre (nom, prenom, id_genre, adresse, id_ville, id_code_postale, id_pays, mail, telephone, id_activite, id_docteur, id_abonnement, id_moyen_de_paiement)
-VALUES ('Clinton','Nicolas','1','30 rue de la Fontaine','1','1','1','musclefit@yahoo.fr','0642069755','3','1','11','1');
+VALUES ('Clinton','Nicolas', 1,'30 rue de la Fontaine', 1, 1 , 1 ,'musclefit@yahoo.fr','0642069755', 3, 1, 11, 1);
 INSERT INTO membre (nom, prenom, id_genre, adresse, id_ville, id_code_postale, id_pays, mail, telephone, id_activite, id_docteur, id_abonnement, id_moyen_de_paiement)
-VALUES ('Bellic','Lamar','1','Stadhouderskade 78','5','6','3','imporage@hotmail.com','11527563','5','2','2','1');
+VALUES ('Bellic','Lamar', 1,'Stadhouderskade 78', 5, 6, 3,'imporage@hotmail.com','11527563', 5, 2, 2, 1);
 INSERT INTO membre (nom, prenom, id_genre, adresse, id_ville, id_code_postale, id_pays, mail, telephone, id_activite, id_docteur, id_abonnement, id_moyen_de_paiement)
-VALUES ('Jakowski','Francklin','1','42 Rue de Lattre de Tassigny','2','2','1','frajaski@aol.com','0655487565','7','3','1','1');
+VALUES ('Jakowski','Francklin', 1,'42 Rue de Lattre de Tassigny', 2, 2, 1,'frajaski@aol.com','0655487565', 7, 3, 1, 1);

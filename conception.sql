@@ -21,15 +21,15 @@ id_moyen_de_paiement TINYINT NOT NULL
 
 CREATE TABLE IF NOT EXISTS docteur(
 id_docteur INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
-nom VARCHAR(50) NOT NULL,
-prenom VARCHAR(50) NOT NULL,
+nom_docteur VARCHAR(50) NOT NULL,
+prenom_docteur VARCHAR(50) NOT NULL,
 id_genre TINYINT,
-adresse VARCHAR(100) NOT NULL,
+adresse_docteur VARCHAR(100) NOT NULL,
 id_ville INT NOT NULL,
-id_code_postal INT NOT NULL,
+id_code_postale INT NOT NULL,
 id_pays TINYINT NOT NULL,
-mail VARCHAR(100) NOT NULL,
-telephone INT NOT NULL
+mail_docteur VARCHAR(100) NOT NULL,
+telephone_docteur INT NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS genre(
