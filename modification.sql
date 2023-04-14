@@ -84,3 +84,12 @@ ALTER TABLE `euro_fit_laurie`.`docteur`
 ADD CONSTRAINT `fk_docteur_id_pays` FOREIGN KEY (`id_pays`) REFERENCES `euro_fit_laurie`.`pays` (`id_pays`)
 ON DELETE NO ACTION ON UPDATE NO ACTION;
 
+-- MODIFICATION ADRESSE MEMBRE 2 --
+UPDATE membre
+SET adresse = '45 rue des plans'
+WHERE id_membre = 2;
+
+-- MODIFICATIONS MEMBRE 1 --
+UPDATE membre
+SET adresse = '35 rue de la Fontaine', mail = 'fit@gmail.com', id_activite = 5, id_moyen_de_paiement = 2
+WHERE id_membre = 1;
